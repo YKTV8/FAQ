@@ -63,7 +63,7 @@ h1{
     display: block;
 
 }
-.faq-toogle{
+.faq-toggle{
     border-radius: 50%;
     background-color: transparent;
     border: 0;
@@ -79,16 +79,16 @@ h1{
     height: 30px;
     width: 30px;
 }
-.faq-toogle .fa-times{
+.faq-toggle .fa-times{
     display: none;
 }
-.faq.active .faq-toogle .fa-times{
+.faq.active .faq-toggle .fa-times{
     display: block;
     color: white;
 }
-.faq.active .faq-toogle .fa-chevron-down{
+.faq.active .faq-toggle .fa-chevron-down{
     display: none;
 }
-.faq.active .faq-toogle{
+.faq.active .faq-toggle{
     background-color: gray;
 }
